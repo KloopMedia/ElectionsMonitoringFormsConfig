@@ -24,3 +24,5 @@ form_config = {
     ],
     gateway: "www.blablabla.kg"
 }
+
+export default form_config
