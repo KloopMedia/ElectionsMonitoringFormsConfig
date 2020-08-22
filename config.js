@@ -20,6 +20,16 @@ form_config = {
             title: "PSO chairperson male/female:",
             type: "radio",
             answer: ["Male", "Female"]
+        },
+        {
+            title: "Transparency:",
+            type: "multiradio",
+            subquestion: [
+                "12a: Did observers present have a clear view of the opening procedures?",
+                "13a: Were you in any way restricted in your observation of the opening procedures?",
+                "14a: Did any authorized observers inform you of problems at this PS during opening?"
+            ],
+            answer: ["Yes", "No", "NA"]
         }
     ],
     gateway: "www.blablabla.kg"
