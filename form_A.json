@@ -1,0 +1,117 @@
+{
+    "main_title": "OPENING PROCEDURES",
+    "gateway": "www.blablabla.kg",
+    "questions": [
+        {
+            "title": "Group number:",
+            "type": "select",
+            "answer": [
+                "Group 1", "Group 2", "Group 3", "Group 4", "Group 5", "Group 6", "Group 7", "Group 8", "Group 9", "Group 10"
+            ]
+        },
+        {
+            "title": "PS no.:",
+            "type": "select",
+            "answer": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10","10","12", "13", "14", "15", "16"
+            ]
+        },
+        {
+            "title": "PS ID:",
+            "type": "input"
+        },
+        {
+            "title": "Time of arrival:",
+            "type": "time"
+        },
+        {
+            "title": "Time og departure:",
+            "type": "time"
+        },
+        {
+            "title": "No. of appointed PSO:",
+            "type": "select",
+            "answer": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10","10","12", "13", "14", "15+"
+            ]
+        },
+        {
+            "title": "PSO chairperson male/female:",
+            "type": "radio",
+            "answer": ["Male", "Female"]
+        },
+        {
+            "title": "Overall rating (1 very bad - 4 very good):",
+            "type": "radio",
+            "answer": ["1", "2", "3", "4"]
+        },
+        {
+            "title": "General notes:",
+            "type": "input"
+        },
+        {
+            "title": "1a: Were all necessary election materials present? Check the following items:",
+            "type": "multiradio",
+            "subquestion": [
+                "Polling booth/s",
+                "Ballot papers",
+                "Voters list",
+                "Protocols",
+                "Ballot box seals",
+                "Ballot box(es)",
+                "Other (comment on other side)"
+            ],
+            "answer": ["Yes"]
+        },
+        {
+            "title": "Opening procedures",
+            "type": "multiradio",
+            "subquestion": [
+                "2a: Did drawing lots determine the tasks/responsibilities of individual PSO members?",
+                "3a: Was the number of voters in the general voting lists announced and entered into a protocol?",
+                "4a: Were the packages of ballots and envelopes intact?",
+                "5a: Was the number of ballot papers announced and entered into the protocols?",
+                "6a: Were the ballot boxes properly sealed?",
+                "7a: Were the serial numbers of the ballot box seals entered into a record book?",
+                "8a: Were control sheets inserted in every ballot box?",
+                "9a: Did the PS open on time?"
+            ],
+            "answer": ["Yes", "No", "NA"]
+        },
+        {
+            "title": "10a: Were unauthorized persons present at the opening of this PS? Did you see:",
+            "type": "multiradio",
+            "subquestion": [
+                "Uninvited police",
+                "Local officials",
+                "State officials",
+                "Military",
+                "Candidate(s)",
+                "Party activist(s)",
+                "Other"
+            ],
+            "answer": ["Yes"]
+        },
+        {
+            "title": "11a: Were authorized persons present at the opening of this PS? Did you see:",
+            "type": "multiradio",
+            "subquestion": [
+                "Partisan observers",
+                "Nonpartisan groups",
+                "International observers (apart from SILBA)",
+                "Other"
+            ],
+            "answer": ["Yes"]
+        },
+        {
+            "title": "Transparency",
+            "type": "multiradio",
+            "subquestion": [
+                "12a: Did observers present have a clear view of the opening procedures?",
+                "13a: Were you in any way restricted in your observation of the opening procedures?",
+                "14a: Did any authorized observers inform you of problems at this PS during opening?"
+            ],
+            "answer": ["Yes", "No", "NA"]
+        }
+    ]
+}

@@ -1,0 +1,128 @@
+{
+    "main_title": "OPENING PROCEDURES",
+    "gateway": "www.blablabla.kg",
+    "questions": [
+        {
+            "title": "Group number:",
+            "type": "select",
+            "answer": [
+                "Group 1", "Group 2", "Group 3", "Group 4", "Group 5", "Group 6", "Group 7", "Group 8", "Group 9", "Group 10"
+            ]
+        },
+        {
+            "title": "PS no.:",
+            "type": "select",
+            "answer": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10","10","12", "13", "14", "15", "16"
+            ]
+        },
+        {
+            "title": "PS ID:",
+            "type": "input"
+        },
+        {
+            "title": "Time of arrival:",
+            "type": "time"
+        },
+        {
+            "title": "Time og departure:",
+            "type": "time"
+        },
+        {
+            "title": "No. of appointed PSO:",
+            "type": "select",
+            "answer": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10","10","12", "13", "14", "15+"
+            ]
+        },
+        {
+            "title": "PSO chairperson male/female:",
+            "type": "radio",
+            "answer": ["Male", "Female"]
+        },
+        {
+            "title": "Overall rating (1 very bad - 4 very good):",
+            "type": "radio",
+            "answer": ["1", "2", "3", "4"]
+        },
+        {
+            "title": "General notes:",
+            "type": "input"
+        },
+        {
+            "title": "Steps to be completed before the ballot-boxes are opened",
+            "type": "multiradio",
+            "subquestion": [
+                "1c: Were the people queuing in front of the PS allowed to vote?",
+                "2c: Was the seal on the ballot boxes intact before opening the boxes?",
+                "3c: Was the seal’s serial entered into the protocol?",
+                "4c: Were the control sheets found in every ballot box and identical with the one kept by the PSO?",
+                "5c: Was the number of votes announced and entered into the protocols?",
+                "6c: Was the number of unused ballot boxes entered into the protocols?",
+                "7c: Was the number of spoiled votes counted and entered into the protocol?",
+                "8c: Were spoiled and unused ballots packed in separate envelopes?"
+            ],
+            "answer": ["Yes", "No", "NA"]
+        },
+        {
+            "title": "Officials and transparency",
+            "type": "multiradio",
+            "subquestion": [
+                "9c: Is the count performed only by polling-station officials?",
+                "10c: Do election officials appear to understand and adhere to the required procedures?",
+                "11c: Are ballots counted in an orderly and secure manner?",
+                "12c: Is the count conducted in a transparent environment?",
+                "13c: Are observers able to clearly see all aspects of the counting, including marks on ballots?",
+                "14c: Does the number of registered voters recorded as having voted correspond with the number of ballots cast?"
+            ],
+            "answer": ["Yes", "No", "NA"]
+        },
+        {
+            "title": "Opening of the ballot boxes",
+            "type": "multiradio",
+            "subquestion": [
+                "15c: Are unused ballots secured, cancelled or destroyed after being counted?",
+                "16c: Are ballots invalidated in a reasonable and consistent manner?",
+                "17c: Are invalid ballots appropriately segregated and preserved for review?",
+                "18c: Does the number of invalid ballots seem inordinately high?",
+                "19c: Do the ballots contain any unusual markings intended to violate the secrecy of the vote?",
+                "20c: Are ballots for each party or candidate separated correctly and counted individually?",
+                "21c: Did polling-station officials agree on the vote-counting procedures and results?",
+                "22c: If there were any disputes or complaints, were they resolved in a satisfactory manner?",
+                "23c: Are official counting records appropriately completed?",
+                "24c: Are political party/candidate representatives and other domestic observers able to obtain official copies of the protocol for the polling station?",
+                "25c: Are the results posted publicly or transparently in the polling station?",
+                "26c: Are there inappropriate activities by police and/or security forces personnel, such as taking notes and reporting figures or results by telephone?"
+            ],
+            "answer": ["Yes", "No", "NA"]
+        },
+        {
+            "title": "Irregularities",
+            "type": "multiradio",
+            "subquestion": [
+                "27c: Do you see any indications of ballot box-stuffing?",
+                "28c: Do you see any indications of adding marked ballots after the opening of the box?",
+                "29c: Do you see any indications of attempting to invalidate ballot papers?",
+                "30c: Do you see any indications of multiple and identical signatures on the voter list?",
+                "31c: Does the polling station have an inadequate numbers of counting staff and supervisors?",
+                "32c: Do you see any indications of exclusion of polling-station officials or observers?",
+                "33c: Do you see any indications of power outages that hamper or prevent counting?",
+                "34c: Are observers kept at too great a distance to see marked ballots and how they are sorted?",
+                "35c: Do you see any indications of dishonest counting or reporting of the ballots?",
+                "36c: Do you see any indications of insecure storage of unused ballots?"
+            ],
+            "answer": ["Yes", "No", "NA"]
+        },
+        {
+            "title": "Procedures and environment",
+            "type": "multiradio",
+            "subquestion": [
+                "37c: Were the PSO disturbed in their work counting the ballots?",
+                "38c: Were the PSO members’ understanding of counting procedures followed in a satisfactory manner?",
+                "39c: Was the overall performance of the PSO satisfactory?",
+                "40c: Was the transparency of the counting process satisfactory?"
+            ],
+            "answer": ["Yes", "No", "NA"]
+        }
+    ]
+}

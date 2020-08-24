@@ -1,0 +1,112 @@
+{
+    "main_title": "OPENING PROCEDURES",
+    "gateway": "www.blablabla.kg",
+    "questions": [
+        {
+            "title": "Group number:",
+            "type": "select",
+            "answer": [
+                "Group 1", "Group 2", "Group 3", "Group 4", "Group 5", "Group 6", "Group 7", "Group 8", "Group 9", "Group 10"
+            ]
+        },
+        {
+            "title": "PS no.:",
+            "type": "select",
+            "answer": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10","10","12", "13", "14", "15", "16"
+            ]
+        },
+        {
+            "title": "PS ID:",
+            "type": "input"
+        },
+        {
+            "title": "Time of arrival:",
+            "type": "time"
+        },
+        {
+            "title": "Time og departure:",
+            "type": "time"
+        },
+        {
+            "title": "No. of appointed PSO:",
+            "type": "select",
+            "answer": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10","10","12", "13", "14", "15+"
+            ]
+        },
+        {
+            "title": "PSO chairperson male/female:",
+            "type": "radio",
+            "answer": ["Male", "Female"]
+        },
+        {
+            "title": "Overall rating (1 very bad - 4 very good):",
+            "type": "radio",
+            "answer": ["1", "2", "3", "4"]
+        },
+        {
+            "title": "General notes:",
+            "type": "input"
+        },
+        {
+            "title": "General problems you optionally can ask the chairman about",
+            "type": "multiradio",
+            "subquestion": [
+                "1b: Did the polling station open too late?",
+                "2b: Are there any sign of campaign materials or activity in, or in close proximity to, the PS?",
+                "3b: Are voters being offered any inducements to vote in a particular manner?",
+                "4b: If there are police present, are they behaving in an appropriate manner?",
+                "5b: Is access to the polling station challenging for disabled people?",
+                "6b: Is the PSO trained in a satisfactory manner",
+                "7b: Is the chairman trained in a satisfactory manner?"
+            ],
+            "answer": ["Yes", "No", "NA"]
+        },
+        {
+            "title": "Indications of problems",
+            "type": "multiradio",
+            "subquestion": [
+                "8b: Do you see any indications of tension/unrest inside or outside the polling station?",
+                "9b: ... of unauthorized persons being present at the polling station?",
+                "10b: ... of voters inappropriately being turned away?",
+                "11b: ... of inappropriate booths, screens, light supply that fail to ensure the secrecy of the vote?",
+                "12b: ... of group (family) voting?",
+                "13b: ... of proxy voting (unless specified by law)?",
+                "14b: ... of multiple voting?",
+                "15b: ... of ballot-box stuffing?",
+                "16b: ... of unsealed or inadequately sealed ballot boxes?",
+                "17b: ... of pre-marked ballots?",
+                "18b: ... of purposely damaging ballots?",
+                "19b: ... of absence of necessary voting information materials?",
+                "20b: ... of excessive delays in administering the voting?",
+                "21b: ... of inappropriate activity by representatives of political parties or individual candidates?",
+                "22b: ... of interference with the work of election commissions or observers?"
+            ],
+            "answer": ["Yes", "No", "NA"]
+        },
+        {
+            "title": "Checking of voters",
+            "type": "multiradio",
+            "subquestion": [
+                "23b: Did the PSO check the voters’ IDs?",
+                "24b: Did the PSO sign and stamp the ballots?",
+                "25b: Did the voters sign the voter list?",
+                "26b: Did voters mark their ballots in secrecy?"
+            ],
+            "answer": ["Yes", "No", "NA"]
+        },
+        {
+            "title": "The overall conduct at this PS was (1 very bad - 4 very good)",
+            "type": "multiradio",
+            "subquestion": [
+                "27b: Procedures followed",
+                "28b: PSO’s understanding of voting procedures",
+                "29b: Performance of PSO",
+                "30b: Transparency of the voting process",
+                "31b: Attitude of the PSO towards you as international election observers"
+            ],
+            "answer": ["1", "2", "3", "4"]
+        }
+    ]
+}
