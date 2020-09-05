@@ -1,14 +1,17 @@
  [
     {
         "label": "Opening procedures",
-        "url": "https://raw.githubusercontent.com/aTNa-Lab/kloop-forms-config/master/form_A.json"
+        "url": "https://raw.githubusercontent.com/aTNa-Lab/kloop-forms-config/master/form_A.json",
+        "path": "opening"
     },
     {
         "label": "General observations",
-        "url": "https://raw.githubusercontent.com/aTNa-Lab/kloop-forms-config/master/form_B.json"
+        "url": "https://raw.githubusercontent.com/aTNa-Lab/kloop-forms-config/master/form_B.json",
+        "path": "general"
     },
     {
         "label": "Closing procedures",
-        "url": "https://raw.githubusercontent.com/aTNa-Lab/kloop-forms-config/master/form_C.json"
+        "url": "https://raw.githubusercontent.com/aTNa-Lab/kloop-forms-config/master/form_C.json",
+        "path": "closing"
     }
 ]
