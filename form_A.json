@@ -1,6 +1,13 @@
 {
     "main_title": "OPENING PROCEDURES",
     "gateway": "www.blablabla.kg",
+    "period": {
+            "start": "12:00 gmt +6",
+            "finish": "13:00 gmt +6",
+            "before": {"nofill": true},
+            "in": {"nofill": false},
+            "after": {"nofill": false}
+    },
     "questions": [
         {
             "title": "Group number:",
