@@ -2,8 +2,8 @@
     "main_title": "OPENING PROCEDURES",
     "gateway": "www.blablabla.kg",
     "period": {
-            "start": "2020-09-08 17:00:00 GMT+6",
-            "finish": "2020-09-08 17:30:00 GMT+6",
+            "start": "2020-09-08 18:00:00 GMT+6",
+            "finish": "2020-09-08 18:30:00 GMT+6",
             "before": {"nofill": true},
             "in": {"nofill": false},
             "after": {"nofill": false}

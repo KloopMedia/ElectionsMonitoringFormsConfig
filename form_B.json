@@ -1,6 +1,13 @@
 {
     "main_title": "GENERAL OBSERVATIONS",
     "gateway": "www.blablabla.kg",
+    "period": {
+        "start": "2020-09-10 15:00:00 GMT+6",
+        "finish": "2020-09-10 18:30:00 GMT+6",
+        "before": {"nofill": true},
+        "in": {"nofill": false},
+        "after": {"nofill": false}
+},
     "questions": [
         {
             "title": "Group number:",
