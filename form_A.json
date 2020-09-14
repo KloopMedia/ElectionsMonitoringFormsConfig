@@ -68,7 +68,8 @@
                 "Ballot box(es)",
                 "Other (comment on other side)"
             ],
-            "answer": ["Yes"]
+            "answer": ["Yes"],
+            "attachMaterials" : true
         },
         {
             "title": "Opening procedures",
@@ -83,7 +84,8 @@
                 "8a: Were control sheets inserted in every ballot box?",
                 "9a: Did the PS open on time?"
             ],
-            "answer": ["Yes", "No", "NA"]
+            "answer": ["Yes", "No", "NA"],
+            "attachMaterials" : true
         },
         {
             "title": "10a: Were unauthorized persons present at the opening of this PS? Did you see:",
@@ -97,7 +99,8 @@
                 "Party activist(s)",
                 "Other"
             ],
-            "answer": ["Yes"]
+            "answer": ["Yes"],
+            "attachMaterials" : true
         },
         {
             "title": "11a: Were authorized persons present at the opening of this PS? Did you see:",
@@ -108,7 +111,8 @@
                 "International observers (apart from SILBA)",
                 "Other"
             ],
-            "answer": ["Yes"]
+            "answer": ["Yes"],
+            "attachMaterials" : true
         },
         {
             "title": "Transparency",
