@@ -1,0 +1,38 @@
+{
+    "main_title": "Вечерняя форма для наблюдателей",
+    "period": {
+            "start": "2020-09-08 18:00:00 GMT+6",
+            "finish": "2020-09-08 18:30:00 GMT+6",
+            "before": {"nofill": true},
+            "in": {"nofill": false},
+            "after": {"nofill": false}
+    },
+    "questions": [
+        {
+            "title": "1. Имя и Фамилия:",
+            "type": "input"
+        },
+        {
+            "title": "2. Номер участка:",
+            "type": "input"
+        },
+        {
+            "title": "3. Номер группы:",
+            "type": "input"
+        },
+        {
+            "title": "4. Подробно опишите нарушение. Что и как произошло:",
+            "type": "input"
+        },
+        {
+            "title": "5. Прикрепите фото/видео-доказательство нарушения:",
+            "type": "input",
+            "attachMaterials" : true
+        },
+        {
+            "title": "6. Если вам удалось зарегистрировать акт о нарушении, прикрепите фото акта:",
+            "type": "input",
+            "attachMaterials" : true
+        }
+    ]
+}
