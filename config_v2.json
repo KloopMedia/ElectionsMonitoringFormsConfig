@@ -1,0 +1,22 @@
+[
+    {
+        "label": "Утренняя форма для наблюдателей",
+        "url": "https://raw.githubusercontent.com/aTNa-Lab/kloop-forms-config/master/form_morning.json",
+        "path": "/morning"
+    },
+    {
+        "label": "Обеденная форма для наблюдателей",
+        "url": "https://raw.githubusercontent.com/aTNa-Lab/kloop-forms-config/master/form_afternoon.json",
+        "path": "/afternoon"
+    },
+    {
+        "label": "Вечерняя форма для наблюдателей",
+        "url": "https://raw.githubusercontent.com/aTNa-Lab/kloop-forms-config/master/form_evening.json",
+        "path": "/evening"
+    },
+    {
+        "label": "Экстренная форма",
+        "url": "https://raw.githubusercontent.com/aTNa-Lab/kloop-forms-config/master/form_emergency.json",
+        "path": "/emergency"
+    }
+]
