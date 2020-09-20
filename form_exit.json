@@ -1,0 +1,16 @@
+{
+    "main_title": "Форма выхода с участка",
+    "period": {
+            "start": "2020-09-08 18:00:00 GMT+6",
+            "finish": "2020-09-08 18:30:00 GMT+6",
+            "before": {"nofill": true},
+            "in": {"nofill": false},
+            "after": {"nofill": false}
+    },
+    "questions": [
+        {
+            "title": "1. Я закончил работать наблюдателем и вышел из участка в (указать время):",
+            "type": "time"
+        }
+    ]
+}

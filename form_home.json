@@ -1,0 +1,21 @@
+{
+    "main_title": "Форма прибытия домой",
+    "period": {
+            "start": "2020-09-08 18:00:00 GMT+6",
+            "finish": "2020-09-08 18:30:00 GMT+6",
+            "before": {"nofill": true},
+            "in": {"nofill": false},
+            "after": {"nofill": false}
+    },
+    "questions": [
+        {
+            "title": "Я пришёл домой и со мной всё в порядке:",
+            "type": "radio",
+            "answer": ["Да", "Нет"]
+        },
+        {
+            "title": "Если нет, то опишите, что случилось:",
+            "type": "input"
+        }
+    ]
+}
