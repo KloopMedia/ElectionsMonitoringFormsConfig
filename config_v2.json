@@ -1,5 +1,15 @@
 [
     {
+        "label": "Контактные данные",
+        "url": "https://raw.githubusercontent.com/KloopMedia/ElectionsMonitoringFormsConfig/master/form_contacts.json",
+        "path": "/contacts"
+    },
+    {
+        "label": "Форма по прибытию на участок",
+        "url": "https://raw.githubusercontent.com/KloopMedia/ElectionsMonitoringFormsConfig/master/form_enter.json",
+        "path": "/enter"
+    },
+    {
         "label": "Утренняя форма для наблюдателей",
         "url": "https://raw.githubusercontent.com/KloopMedia/ElectionsMonitoringFormsConfig/master/form_morning.json",
         "path": "/morning"
@@ -18,16 +28,6 @@
         "label": "Экстренная форма",
         "url": "https://raw.githubusercontent.com/KloopMedia/ElectionsMonitoringFormsConfig/master/form_emergency.json",
         "path": "/emergency"
-    },
-    {
-        "label": "Контактные данные",
-        "url": "https://raw.githubusercontent.com/KloopMedia/ElectionsMonitoringFormsConfig/master/form_contacts.json",
-        "path": "/contacts"
-    },
-    {
-        "label": "Форма по прибытию на участок",
-        "url": "https://raw.githubusercontent.com/KloopMedia/ElectionsMonitoringFormsConfig/master/form_enter.json",
-        "path": "/enter"
     },
     {
         "label": "Форма выхода с участка",
