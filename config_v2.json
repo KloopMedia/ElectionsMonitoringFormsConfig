@@ -38,5 +38,10 @@
         "label": "Форма прибытия домой",
         "url": "https://raw.githubusercontent.com/KloopMedia/ElectionsMonitoringFormsConfig/master/form_home.json",
         "path": "/return"
+    },
+    {
+        "label": "Общая форма для мобильных групп",
+        "url": "https://raw.githubusercontent.com/KloopMedia/ElectionsMonitoringFormsConfig/master/form_mobile.json",
+        "path": "/mobile"
     }
 ]
