@@ -2,46 +2,55 @@
     {
         "label": "Контактные данные",
         "url": "https://raw.githubusercontent.com/KloopMedia/ElectionsMonitoringFormsConfig/master/form_contacts.json",
-        "path": "/contacts"
+        "path": "/contacts",
+        "role": "all"
     },
     {
         "label": "Форма по прибытию на участок",
         "url": "https://raw.githubusercontent.com/KloopMedia/ElectionsMonitoringFormsConfig/master/form_enter.json",
-        "path": "/enter"
+        "path": "/enter",
+        "role": "all"
     },
     {
         "label": "Утренняя форма для наблюдателей",
         "url": "https://raw.githubusercontent.com/KloopMedia/ElectionsMonitoringFormsConfig/master/form_morning.json",
-        "path": "/morning"
+        "path": "/morning",
+        "role": "stationary"
     },
     {
         "label": "Обеденная форма для наблюдателей",
         "url": "https://raw.githubusercontent.com/KloopMedia/ElectionsMonitoringFormsConfig/master/form_afternoon.json",
-        "path": "/afternoon"
+        "path": "/afternoon",
+        "role": "stationary"
     },
     {
         "label": "Вечерняя форма для наблюдателей",
         "url": "https://raw.githubusercontent.com/KloopMedia/ElectionsMonitoringFormsConfig/master/form_evening.json",
-        "path": "/evening"
+        "path": "/evening",
+        "role": "stationary"
     },
     {
         "label": "Экстренная форма",
         "url": "https://raw.githubusercontent.com/KloopMedia/ElectionsMonitoringFormsConfig/master/form_emergency.json",
-        "path": "/emergency"
+        "path": "/emergency",
+        "role": "all"
     },
     {
         "label": "Форма выхода с участка",
         "url": "https://raw.githubusercontent.com/KloopMedia/ElectionsMonitoringFormsConfig/master/form_exit.json",
-        "path": "/exit"
+        "path": "/exit",
+        "role": "all"
     },
     {
         "label": "Форма прибытия домой",
         "url": "https://raw.githubusercontent.com/KloopMedia/ElectionsMonitoringFormsConfig/master/form_home.json",
-        "path": "/return"
+        "path": "/return",
+        "role": "all"
     },
     {
         "label": "Общая форма для мобильных групп",
         "url": "https://raw.githubusercontent.com/KloopMedia/ElectionsMonitoringFormsConfig/master/form_mobile.json",
-        "path": "/mobile"
+        "path": "/mobile",
+        "role": "mobile"
     }
 ]
