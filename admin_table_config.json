@@ -10,10 +10,22 @@
              "title":"City/District",
              "field":"district",
              "lookup":{
-                "none" : "none",
-                "bishkek":"Бишкек",
-                "chui":"Чуй",
-                "karabalta":"Кара-Балта"
+                  "none" : "none",
+                  "bishkek":"Бишкек",
+                  "chui":"Чуй",
+                  "karabalta":"Кара-Балта",
+                  "sokuluk": "Сокулук",
+                  "karakol":"Каракол",
+                  "residentialArea":"по ж.массивам г.Бишкек",
+                  "leninskoe":"с. Ленинское",
+                  "talas":"Талас",
+                  "archabeshik":"Арча бешик",
+                  "tokmok":"Токмок",
+                  "cholponAta":"Чолпон Ата",
+                  "pishpek":"Пишпек",
+                  "jalalabad":"Жалал-Абад",
+                  "naryn":"Нарын",
+                  "osh":"Ош"
              }
           },
           {
