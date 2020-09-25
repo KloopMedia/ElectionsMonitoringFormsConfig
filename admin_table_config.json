@@ -1,0 +1,49 @@
+{
+    "fields":{
+       "mainAdminTable":[
+          {
+             "title":"Name",
+             "field":"name",
+             "editable":"never"
+          },
+          {
+             "title":"City/District",
+             "field":"district",
+             "lookup":{
+                "none" : "none",
+                "bishkek":"Бишкек",
+                "chui":"Чуй",
+                "karabalta":"Кара-Балта"
+             }
+          },
+          {
+             "title":"Role",
+             "field":"role",
+             "lookup":{
+                "independent":"independent",
+                "mobile":"mobile",
+                "stationary":"stationary",
+                "moderator": "moderator"
+             }
+          }
+       ],
+       "userAnswer":[
+          {
+             "title":"Question",
+             "field":"question",
+             "editable":"never"
+          },
+          {
+             "title":"Answer",
+             "field":"answer",
+             "editable":"never",
+             "lookup":{
+                "0":"Категорически не согласен/не согласна",
+                "1":"Не согласен / не согласна",
+                "2":"Согласен / согласна",
+                "3":"Абсолютно согласен / согласна"
+             }
+          }
+       ]
+    }
+ }
