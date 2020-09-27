@@ -1,0 +1,134 @@
+{
+    "forms": [
+        {
+            "label": "Контактные данные",
+            "url": "https://raw.githubusercontent.com/KloopMedia/ElectionsMonitoringFormsConfig/master/form_contacts.json",
+            "path": "/contacts",
+            "role": "all"
+        },
+        {
+            "label": "Форма по прибытию на участок",
+            "url": "https://raw.githubusercontent.com/KloopMedia/ElectionsMonitoringFormsConfig/master/form_enter.json",
+            "path": "/enter",
+            "role": "all"
+        },
+        {
+            "label": "Утренняя форма для наблюдателей",
+            "url": "https://raw.githubusercontent.com/KloopMedia/ElectionsMonitoringFormsConfig/master/form_morning.json",
+            "path": "/morning",
+            "role": "stationary"
+        },
+        {
+            "label": "Обеденная форма для наблюдателей",
+            "url": "https://raw.githubusercontent.com/KloopMedia/ElectionsMonitoringFormsConfig/master/form_afternoon.json",
+            "path": "/afternoon",
+            "role": "stationary"
+        },
+        {
+            "label": "Вечерняя форма для наблюдателей",
+            "url": "https://raw.githubusercontent.com/KloopMedia/ElectionsMonitoringFormsConfig/master/form_evening.json",
+            "path": "/evening",
+            "role": "stationary"
+        },
+        {
+            "label": "Экстренная форма",
+            "url": "https://raw.githubusercontent.com/KloopMedia/ElectionsMonitoringFormsConfig/master/form_emergency.json",
+            "path": "/emergency",
+            "role": "all"
+        },
+        {
+            "label": "Форма выхода с участка",
+            "url": "https://raw.githubusercontent.com/KloopMedia/ElectionsMonitoringFormsConfig/master/form_exit.json",
+            "path": "/exit",
+            "role": "all"
+        },
+        {
+            "label": "Форма прибытия домой",
+            "url": "https://raw.githubusercontent.com/KloopMedia/ElectionsMonitoringFormsConfig/master/form_home.json",
+            "path": "/return",
+            "role": "all"
+        },
+        {
+            "label": "Общая форма для мобильных групп",
+            "url": "https://raw.githubusercontent.com/KloopMedia/ElectionsMonitoringFormsConfig/master/form_mobile.json",
+            "path": "/mobile",
+            "role": "mobile"
+        }
+    ],
+
+    "mainAdminTable": [
+        {
+            "title": "Name",
+            "field": "name",
+            "editable": "never"
+        },
+        {
+            "title": "City/District",
+            "field": "district",
+            "lookup": {
+                "none": "none",
+                "bishkek": "Бишкек",
+                "chui": "Чуй",
+                "karabalta": "Кара-Балта",
+                "sokuluk": "Сокулук",
+                "karakol": "Каракол",
+                "residentialArea": "по ж.массивам г.Бишкек",
+                "leninskoe": "с. Ленинское",
+                "talas": "Талас",
+                "archabeshik": "Арча бешик",
+                "tokmok": "Токмок",
+                "cholponAta": "Чолпон Ата",
+                "pishpek": "Пишпек",
+                "jalalabad": "Жалал-Абад",
+                "naryn": "Нарын",
+                "osh": "г. Ош",
+                "ioBishkek": "Бишкек, но можно и вне",
+                "ioCity": "можно в городе и вне",
+                "lebedinovka": "Лебединовка",
+                "mady": "с. Мады",
+                "kyzylTuu": "Кызыл-Туу",
+                "kyzylKiya": "Кызыл-Кия",
+                "kenesh": "Талас, с. Кенеш",
+                "jumgal": "Жумгал",
+                "batken": "г. Баткен",
+                "issykKyl": "Иссык-Кульский район",
+                "baetov": "с. Баетов",
+                "alamedin": "Аламединский р-н",
+                "uchkun": "с. Учкун",
+                "kokJar": "с. Кок-Жар",
+                "nookat": "Ноокат",
+                "uzgen": "Узген",
+                "batkenRaion": "Баткенский район"
+            }
+        },
+        {
+            "title": "Role",
+            "field": "role",
+            "lookup": {
+                "independent": "independent",
+                "mobile": "mobile",
+                "stationary": "stationary",
+                "moderator": "moderator"
+            }
+        }
+    ],
+    
+    "userAnswer": [
+        {
+            "title": "Question",
+            "field": "question",
+            "editable": "never"
+        },
+        {
+            "title": "Answer",
+            "field": "answer",
+            "editable": "never",
+            "lookup": {
+                "0": "Категорически не согласен/не согласна",
+                "1": "Не согласен / не согласна",
+                "2": "Согласен / согласна",
+                "3": "Абсолютно согласен / согласна"
+            }
+        }
+    ]
+}
