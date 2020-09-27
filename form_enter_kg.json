@@ -1,0 +1,21 @@
+{
+    "main_title": "Участокко келген маалдагы форма",
+    "period": {
+            "start": "2020-09-08 18:00:00 GMT+6",
+            "finish": "2020-09-08 18:30:00 GMT+6",
+            "before": {"nofill": true},
+            "in": {"nofill": false},
+            "after": {"nofill": false}
+    },
+    "questions": [
+        {
+            "title": "1. Мен номер __ участогундамын:",
+            "type": "input"
+        },
+        {
+            "title": "2. Мен участокко саат __ келдим:",
+            "type": "time"
+        }
+    ]
+}
+
