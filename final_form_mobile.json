@@ -1,5 +1,6 @@
 {
     "main_title": "Общая форма для мобильных групп",
+    "identifier": "form_mobile",
     "period": {
             "start": "2020-09-08 18:00:00 GMT+6",
             "finish": "2020-09-08 18:30:00 GMT+6",
