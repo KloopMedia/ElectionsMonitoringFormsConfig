@@ -46,11 +46,5 @@
         "url": "https://raw.githubusercontent.com/KloopMedia/ElectionsMonitoringFormsConfig/master/kg_form_home.json",
         "path": "/return",
         "role": "all"
-    },
-    {
-        "label": "Общая форма для мобильных групп",
-        "url": "https://raw.githubusercontent.com/KloopMedia/ElectionsMonitoringFormsConfig/master/kg_form_mobile.json",
-        "path": "/mobile",
-        "role": "mobile"
     }
 ]
