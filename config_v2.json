@@ -1,55 +1,55 @@
 [
     {
-        "label": "Контактные данные",
-        "url": "https://raw.githubusercontent.com/KloopMedia/ElectionsMonitoringFormsConfig/master/form_contacts.json",
+        "label": "Контактные данные / Байланыш маалымат",
+        "url": "https://raw.githubusercontent.com/KloopMedia/ElectionsMonitoringFormsConfig/master/final_form_contacts.json",
         "path": "/contacts",
         "role": "all"
     },
     {
-        "label": "Форма по прибытию на участок",
-        "url": "https://raw.githubusercontent.com/KloopMedia/ElectionsMonitoringFormsConfig/master/form_enter.json",
+        "label": "Форма по прибытию на участок / Участокко келген маалдагы форма",
+        "url": "https://raw.githubusercontent.com/KloopMedia/ElectionsMonitoringFormsConfig/master/final_form_enter.json",
         "path": "/enter",
         "role": "all"
     },
     {
-        "label": "Утренняя форма для наблюдателей",
-        "url": "https://raw.githubusercontent.com/KloopMedia/ElectionsMonitoringFormsConfig/master/form_morning.json",
+        "label": "Утренняя форма для наблюдателей / Байкоочулардын эртең мененки формасы",
+        "url": "https://raw.githubusercontent.com/KloopMedia/ElectionsMonitoringFormsConfig/master/final_form_morning.json",
         "path": "/morning",
         "role": "stationary"
     },
     {
-        "label": "Обеденная форма для наблюдателей",
-        "url": "https://raw.githubusercontent.com/KloopMedia/ElectionsMonitoringFormsConfig/master/form_afternoon.json",
+        "label": "Обеденная форма для наблюдателей / Байкоочулардын түшкү формасы",
+        "url": "https://raw.githubusercontent.com/KloopMedia/ElectionsMonitoringFormsConfig/master/final_form_afternoon.json",
         "path": "/afternoon",
         "role": "stationary"
     },
     {
-        "label": "Вечерняя форма для наблюдателей",
-        "url": "https://raw.githubusercontent.com/KloopMedia/ElectionsMonitoringFormsConfig/master/form_evening.json",
+        "label": "Вечерняя форма для наблюдателей / Байкоочулар үчүн кечки форма",
+        "url": "https://raw.githubusercontent.com/KloopMedia/ElectionsMonitoringFormsConfig/master/final_form_evening.json",
         "path": "/evening",
         "role": "stationary"
     },
     {
-        "label": "Экстренная форма",
-        "url": "https://raw.githubusercontent.com/KloopMedia/ElectionsMonitoringFormsConfig/master/form_emergency.json",
+        "label": "Экстренная форма / Ыкчам формасы",
+        "url": "https://raw.githubusercontent.com/KloopMedia/ElectionsMonitoringFormsConfig/master/final_form_emergency.json",
         "path": "/emergency",
         "role": "all"
     },
     {
-        "label": "Форма выхода с участка",
-        "url": "https://raw.githubusercontent.com/KloopMedia/ElectionsMonitoringFormsConfig/master/form_exit.json",
+        "label": "Форма выхода с участка / Участоктон чыккан маалдагы форма",
+        "url": "https://raw.githubusercontent.com/KloopMedia/ElectionsMonitoringFormsConfig/master/final_form_exit.json",
         "path": "/exit",
         "role": "all"
     },
     {
-        "label": "Форма прибытия домой",
-        "url": "https://raw.githubusercontent.com/KloopMedia/ElectionsMonitoringFormsConfig/master/form_home.json",
+        "label": "Форма прибытия домой / Үйгө келден кийинки форма",
+        "url": "https://raw.githubusercontent.com/KloopMedia/ElectionsMonitoringFormsConfig/master/final_form_home.json",
         "path": "/return",
         "role": "all"
     },
     {
         "label": "Общая форма для мобильных групп",
-        "url": "https://raw.githubusercontent.com/KloopMedia/ElectionsMonitoringFormsConfig/master/form_mobile.json",
+        "url": "https://raw.githubusercontent.com/KloopMedia/ElectionsMonitoringFormsConfig/master/final_form_mobile.json",
         "path": "/mobile",
         "role": "mobile"
     }
