@@ -1,0 +1,140 @@
+{
+    "forms": [
+        {
+            "label": "Контактные данные / Байланыш маалымат",
+            "url": "https://raw.githubusercontent.com/KloopMedia/ElectionsMonitoringFormsConfig/master/final_form_contacts.json",
+            "path": "/contacts",
+            "role": "all"
+        },
+        {
+            "label": "Форма по прибытию на участок / Участокко келген маалдагы форма",
+            "url": "https://raw.githubusercontent.com/KloopMedia/ElectionsMonitoringFormsConfig/master/final_form_enter.json",
+            "path": "/enter",
+            "role": "all"
+        },
+        {
+            "label": "Утренняя форма для наблюдателей / Байкоочулардын эртең мененки формасы",
+            "url": "https://raw.githubusercontent.com/KloopMedia/ElectionsMonitoringFormsConfig/master/final_form_morning.json",
+            "path": "/morning",
+            "role": "stationary"
+        },
+        {
+            "label": "Обеденная форма для наблюдателей / Байкоочулардын түшкү формасы",
+            "url": "https://raw.githubusercontent.com/KloopMedia/ElectionsMonitoringFormsConfig/master/final_form_afternoon.json",
+            "path": "/afternoon",
+            "role": "stationary"
+        },
+        {
+            "label": "Вечерняя форма для наблюдателей / Байкоочулар үчүн кечки форма",
+            "url": "https://raw.githubusercontent.com/KloopMedia/ElectionsMonitoringFormsConfig/master/final_form_evening.json",
+            "path": "/evening",
+            "role": "stationary"
+        },
+        {
+            "label": "Экстренная форма / Ыкчам формасы",
+            "url": "https://raw.githubusercontent.com/KloopMedia/ElectionsMonitoringFormsConfig/master/final_form_emergency.json",
+            "path": "/emergency",
+            "role": "all"
+        },
+        {
+            "label": "Форма выхода с участка / Участоктон чыккан маалдагы форма",
+            "url": "https://raw.githubusercontent.com/KloopMedia/ElectionsMonitoringFormsConfig/master/final_form_exit.json",
+            "path": "/exit",
+            "role": "all"
+        },
+        {
+            "label": "Форма прибытия домой / Үйгө келден кийинки форма",
+            "url": "https://raw.githubusercontent.com/KloopMedia/ElectionsMonitoringFormsConfig/master/final_form_home.json",
+            "path": "/return",
+            "role": "all"
+        },
+        {
+            "label": "Общая форма для мобильных групп",
+            "url": "https://raw.githubusercontent.com/KloopMedia/ElectionsMonitoringFormsConfig/master/final_form_mobile.json",
+            "path": "/mobile",
+            "role": "mobile"
+        }
+    ],
+
+    "mainAdminTable":[
+        {
+           "title":"Name",
+           "field":"name",
+           "editable":"never"
+        },
+        {
+           "title":"City/District",
+           "field":"district",
+           "lookup":{
+                  "none" : "none",
+                  "Бишкек": "Бишкек",
+                  "Лебединовка": "Лебединовка",
+                  "с. Мады": "с. Мады",
+                  "Кызыл-Туу": "Кызыл-Туу",
+                  "Кызыл-Кия": "Кызыл-Кия",
+                  "Талас": "Талас",
+                  "с. Кенеш": "с. Кенеш",
+                  "Жумгал": "Жумгал",
+                  "Баткен": "Баткен",
+                  "Иссык-Кульский район": "Иссык-Кульский район",
+                  "Первомайский": "Первомайский",
+                  "с. Ново-Павловка": "с. Ново-Павловка",
+                  "Лейлек": "Лейлек",
+                  "Кара-Кулжа": "Кара-Кулжа",
+                  "Каракол": "Каракол",
+                  "Спартак": "Спартак",
+                  "Токмок": "Токмок",
+                  "с. Баетов": "с. Баетов",
+                  "Жалал-Абад": "Жалал-Абад",
+                  "Аламединский р-н": "Аламединский р-н",
+                  "Кара-Балта": "Кара-Балта",
+                  "с. Учкун": "с. Учкун",
+                  "с. Кок-Жар": "с. Кок-Жар",
+                  "Ноокат": "Ноокат",
+                  "Узген": "Узген",
+                  "Ош": "Ош",
+                  "с. Ленинское": "с. Ленинское",
+                  "Арча бешик": "Арча бешик",
+                  "Чуй": "Чуй",
+                  "Пишпек": "Пишпек",
+                  "Чолпон Ата": "Чолпон Ата",
+                  "Нарын": "Нарын",
+                  "Ак Босо": "Ак Босо",
+                  "Панфилов. район": "Панфилов. район",
+                  "Кара-Суу": "Кара-Суу"
+           }
+        },
+        {
+          "title":"№ избирательного участка",
+          "field":"polling_station"
+        },
+        {
+           "title":"Role",
+           "field":"role",
+           "lookup":{
+              "independent":"independent",
+              "mobile":"mobile",
+              "stationary":"stationary",
+              "moderator": "moderator"
+           }
+        }
+     ],
+     "userAnswer":[
+        {
+           "title":"Question",
+           "field":"question",
+           "editable":"never"
+        },
+        {
+           "title":"Answer",
+           "field":"answer",
+           "editable":"never",
+           "lookup":{
+              "0":"Категорически не согласен/не согласна",
+              "1":"Не согласен / не согласна",
+              "2":"Согласен / согласна",
+              "3":"Абсолютно согласен / согласна"
+           }
+        }
+     ]
+}
