@@ -63,6 +63,11 @@
            "editable":"never"
         },
         {
+            "title":"Fullname",
+            "field":"full_name",
+            "editable":"never"
+        },
+        {
            "title":"City/District",
            "field":"district",
            "lookup":{
