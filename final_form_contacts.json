@@ -6,7 +6,7 @@
             "finish": "2020-09-08 18:30:00 GMT+6",
             "before": {"nofill": true},
             "in": {"nofill": false},
-            "after": {"nofill": false}
+            "after": {"nofill": true}
     },
     "questions": [
         {
