@@ -2,8 +2,8 @@
     "main_title": "Форма выхода с участка / Участоктон чыккан маалдагы форма",
     "identifier": "form_exit",
     "period": {
-        "start": "2020-10-02 20:00:00 GMT+6",
-        "finish": "2020-10-02 21:00:00 GMT+6",
+        "start": "2020-10-04 20:00:00 GMT+6",
+        "finish": "2020-10-04 21:00:00 GMT+6",
         "before": {"nofill": true},
         "in": {"nofill": false},
         "after": {"nofill": true}

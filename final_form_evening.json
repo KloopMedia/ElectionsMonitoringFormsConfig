@@ -2,9 +2,9 @@
     "main_title": "Вечерняя форма для наблюдателей / Байкоочулар үчүн кечки форма",
     "identifier": "form_evening",
     "period": {
-        "start": "2020-10-02 20:30:00 GMT+6",
-        "finish": "2020-10-02 22:30:00 GMT+6",
-        "before": {"nofill": true},
+        "start": "2020-10-04 20:30:00 GMT+6",
+        "finish": "2020-10-04 22:30:00 GMT+6",
+        "before": {"nofill": false},
         "in": {"nofill": false},
         "after": {"nofill": true}
     },

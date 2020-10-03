@@ -2,8 +2,8 @@
     "main_title": "Обеденная форма для наблюдателей / Байкоочулардын түшкү формасы",
     "identifier": "form_afternoon",
     "period": {
-        "start": "2020-10-02 10:30:00 GMT+6",
-        "finish": "2020-10-02 15:30:00 GMT+6",
+        "start": "2020-10-04 13:30:00 GMT+6",
+        "finish": "2020-10-04 15:30:00 GMT+6",
         "before": {"nofill": true},
         "in": {"nofill": false},
         "after": {"nofill": true}
