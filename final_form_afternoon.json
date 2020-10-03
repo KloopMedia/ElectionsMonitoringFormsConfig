@@ -4,7 +4,7 @@
     "period": {
         "start": "2020-10-04 13:30:00 GMT+6",
         "finish": "2020-10-04 15:30:00 GMT+6",
-        "before": {"nofill": true},
+        "before": {"nofill": false},
         "in": {"nofill": false},
         "after": {"nofill": true}
     },
