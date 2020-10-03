@@ -49,7 +49,7 @@
             "role": "all"
         },
         {
-            "label": "Общая форма для мобильных групп",
+            "label": "Общая форма для мобильных групп / Мобилдүү топтор үчүн жалпы форма",
             "url": "https://raw.githubusercontent.com/KloopMedia/ElectionsMonitoringFormsConfig/master/final_form_mobile.json",
             "path": "/mobile",
             "role": "mobile"
