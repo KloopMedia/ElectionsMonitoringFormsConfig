@@ -3,7 +3,7 @@
     "identifier": "form_home",
     "period": {
         "start": "2020-10-04 21:00:00 GMT+6",
-        "finish": "2020-10-04 24:00:00 GMT+6",
+        "finish": "2020-10-05 01:00:00 GMT+6",
         "before": {"nofill": true},
         "in": {"nofill": false},
         "after": {"nofill": true}
